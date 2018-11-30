@@ -4,26 +4,16 @@ import moment from 'moment';
 import {
   Image,
   Platform,
-  ScrollView,
   StyleSheet,
   Text,
-  TouchableOpacity,
   View,
 } from 'react-native';
-import { WebBrowser } from 'expo';
 import {
   Content,
-  Header,
-  Left,
   Button,
-  Icon,
-  Body,
-  Right,
-  Title,
 } from 'native-base';
 import { Notifications, Permissions } from 'expo';
 import styleVariables from '../../assets/styles/variables';
-
 
 
 async function getiOSNotificationPermission() {
@@ -32,7 +22,6 @@ async function getiOSNotificationPermission() {
     await Permissions.askAsync(Permissions.NOTIFICATIONS);
   }
 }
-
 
 class MenuScreen extends React.Component {
   _handleButtonPress = () => {
