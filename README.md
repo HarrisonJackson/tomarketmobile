@@ -1,6 +1,6 @@
 # TO.Market Mobile App
 
-![demo](https://github.com/HarrisonJackson/tomarketmobile/blob/master/screenshots/to_market_push.gif?raw=true|width=100)
+![demo](https://github.com/HarrisonJackson/tomarketmobile/blob/master/screenshots/to_market_push_small.gif?raw=true)
 
 ```
 npm install -g expo-cli
